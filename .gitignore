@@ -1,32 +1,39 @@
-# Prerequisites
-*.d
+# Arduino Sketch files
+*.ino
+*.pde
 
-# Compiled Object files
-*.slo
-*.lo
+# Arduino build folder
+/build/
+
+# Arduino libraries
+/libraries/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Linux specific files
+*~
+
+# Compiled object files
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
 
 # Compiled Dynamic libraries
 *.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
 
 # Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
 
 # Executables
 *.exe
-*.out
-*.app
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
