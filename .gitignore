@@ -1,5 +1,4 @@
 # Arduino Sketch files
-*.ino
 *.pde
 
 # Arduino build folder
