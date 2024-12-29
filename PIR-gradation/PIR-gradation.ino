@@ -18,6 +18,7 @@ void setup() {
   digitalWrite(PIN_LED, LOW);
   clearScreen();
   attachInterrupt(digitalPinToInterrupt(PIN_PIR_SIG), showPatterns, RISING);
+  sleep_mode();
 }
 
 // Function to create a gradation effect on the NeoPixel strip
