@@ -18,6 +18,7 @@ This project showcases an Arduino script designed to control a NeoPixel matrix, 
 ![NeoPixel Matrix Gradation Patterns with PIR Sensor schematic diagram](https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/schematics.png)
 
 ## Usage
+- **Adafruit NeoMatrix**: This program uses Adafruit NeoMatrix and dependent libraries.
 - **Connect the Components**: Follow the wiring diagram provided in the repository to connect the NeoPixel matrix and PIR sensor to the Arduino board.
 - **Power Up**: Ensure the power supply is connected and turn on the system. Allow the PIR sensor to stabilize before use.
 - **Enjoy the Show**: Watch as the NeoPixel matrix displays stunning gradation patterns in response to motion detected by the PIR sensor.
