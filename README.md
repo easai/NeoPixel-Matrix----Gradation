@@ -7,12 +7,12 @@ This project showcases an Arduino script designed to control a NeoPixel matrix, 
 ## Features
 - **Interactive Motion Detection**: Utilizes a PIR sensor to detect motion and activate the NeoPixel matrix.
 - **Gradation Patterns**: Displays smooth and colorful gradation patterns that change based on the PIR sensor input.
-- **Arduino Compatible**: Designed to work with Arduino boards.
+- **Arduino Compatible**: Designed to work with Arduino boards. Tested on UNO R3 and Nano.
 
 ## Components
 - **Arduino Board**: Any Arduino-compatible board (e.g., Arduino Uno, Nano).
-- **NeoPixel Matrix**: A matrix of WS2812B LEDs (NeoPixels).
-- **PIR Sensor**: A Passive Infrared sensor for motion detection.
+- **NeoPixel Matrix**: A matrix of WS2812B LEDs (NeoPixels). 
+- **PIR Sensor**: This is a passive infrared sensor for motion detection. I used a 10k ohm pull-down resistor for the Arduino UNO R3 board but not for the Nano board.
 - **Power Supply**: Appropriate power supply for the NeoPixel matrix.
 
 ![NeoPixel Matrix Gradation Patterns with PIR Sensor schematic diagram](https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/schematics.png)
