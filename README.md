@@ -15,7 +15,7 @@ This project showcases an Arduino script designed to control a NeoPixel matrix, 
 - **PIR Sensor**: A Passive Infrared sensor for motion detection.
 - **Power Supply**: Appropriate power supply for the NeoPixel matrix.
 
-![NeoPixel Matrix Gradation Patterns with PIR Sensor schematic diagram](https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/schematic.png)
+![NeoPixel Matrix Gradation Patterns with PIR Sensor schematic diagram](https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/schematics.png)
 
 ## Usage
 - **Connect the Components**: Follow the wiring diagram provided in the repository to connect the NeoPixel matrix and PIR sensor to the Arduino board.
