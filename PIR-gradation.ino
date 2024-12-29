@@ -27,7 +27,7 @@ void gradation() {
   int rndBlueValue = random(1, 3);
   for (int i = 0; i < NUMPIXELS; i++) {
     int rndValue = random(3, 15);
-    pixels.setPixelColor(i, pixels.Color(rndValue / rndRedValue, rndValue / rndGreenValue, rndValue / rndBlueValue));  // Moderately bright green color.
+    pixels.setPixelColor(i, pixels.Color(rndValue / rndRedValue, rndValue / rndGreenValue, rndValue / rndBlueValue));
     pixels.show();
   }
 }
