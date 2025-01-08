@@ -29,14 +29,14 @@ void gradation() {
   for (int i = 0; i < NUMPIXELS; i++) {
     int rndValue = random(3, 15);
     pixels.setPixelColor(i, pixels.Color(rndValue / rndRedValue, rndValue / rndGreenValue, rndValue / rndBlueValue));
-    pixels.show();
   }
+  pixels.show();
 }
 
 // Interrupt service routine
 void showPatterns() {
   delay(50);
-  for (int i = 0; i < 5; i++) {
+  for (int i = 0; i < 10; i++) {
     gradation();
     delay(1000);
   }
@@ -48,8 +48,9 @@ void showPatterns() {
 void clearScreen() {
   for (int i = 0; i < NUMPIXELS; i++) {
     pixels.setPixelColor(i, pixels.Color(0, 0, 0));
-    pixels.show();
   }
+  pixels.show();
+  delay(500);
 }
 
 void loop() {
