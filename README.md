@@ -1,5 +1,11 @@
 # NeoPixel Matrix Gradation Patterns with PIR Sensor
 
+<div style="display:flex; gap:12px; align-items:flex-start;">
+  <img src="https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/IMG_2700.jpeg" height="150">
+  <img src="https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/IMG_2701.jpeg" height="150">
+  <img src="https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/IMG_2703.jpeg" height="150">
+</div>
+
 ![NeoPixel Matrix Demo](https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/NeoPixel%20Matrix%20--%20Gradation.gif)
 
 This project showcases an Arduino script designed to control a NeoPixel matrix, creating gradation patterns in response to input from a Passive Infrared (PIR) sensor. The PIR sensor detects motion, triggering dynamic visual effects on the NeoPixel matrix.
