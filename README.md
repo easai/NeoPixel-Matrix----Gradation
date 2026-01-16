@@ -1,7 +1,7 @@
 # NeoPixel Matrix Gradation Patterns with PIR Sensor
 
 <div style="display:flex; gap:12px; align-items:flex-start;">
-  <img src="https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/IMG_2700.jpeg" height="150">
+  <img src="https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/IMG_2700(1).jpeg" height="150">
   <img src="https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/IMG_2701.jpeg" height="150">
   <img src="https://github.com/easai/NeoPixel-Matrix----Gradation/blob/main/IMG_2703.jpeg" height="150">
 </div>
